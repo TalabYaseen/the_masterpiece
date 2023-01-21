@@ -12,6 +12,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
      <!-- font awesome cdn link  -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css for swiper -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <!-- css style -->
     <link rel="stylesheet" href="./assets/css/landing.css">
     <title>The Contractor</title>
 </head>
@@ -369,13 +373,103 @@
   <!-- top rating section-container End-->
 </div>
 <!-- top rating section End-->
+<!-- review section start-->
 <div class="website-review">
   <h2 class="title">
     Don't take our word for it 
   </h2>
-  <div class="reviews-container">
-    dfsdf
+  <div class="reviews-container swiper">
+    <div class="slide-content">
+      <div class="card-wrapper swiper-wrapper">
+        <!-- single review start-->
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+                <img src="./assets/images/engineer-man-construction-worker-concept.jpg" alt="" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <h2 class="name">David Dell</h2>
+            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <!-- single review end-->
+        <!-- single review start-->
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+                <img src="./assets/images/engineer-man-construction-worker-concept.jpg" alt="" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <h2 class="name">talab yaseen</h2>
+            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <!-- single review end-->
+        <!-- single review start -->
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+                <img src="./assets/images/engineer-man-construction-worker-concept.jpg" alt="" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <h2 class="name">David Dell</h2>
+            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <!-- single review end-->
+      </div>
+    </div>
+    <div class="swiper-button-next swiper-navBtn"></div>
+    <div class="swiper-button-prev swiper-navBtn"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- user review inputs -->
+  <div class="user-review">
+    <h2 class="title1">
+      What do you think of us ?
+    </h2>
+    <form action="" method="post">
+      <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+      <br>
+      <button type="submit">Send</button>
+    </form>
   </div>
 </div>
+<!-- review section end-->
+<!-- footer start -->
+<div class="footer">
+  <div>
+    <img src="./assets/images/logo5-removebg-preview.png" alt="" srcset="">
+  </div>
+  <div>
+    <div>Official Channels</div>
+    <div>thecontractor.gmail.com</div>
+    <div>00962 (03) 777777</div>
+  </div>
+  <div>
+    <div>Social media</div>
+    <div class="social-media">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-pinterest"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </div>
+  </div>
+</div>
+
 </body>
+    <!-- Swiper JS -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="./assets/js/script.js"></script>
 </html>
